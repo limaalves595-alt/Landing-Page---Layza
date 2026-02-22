@@ -24,8 +24,7 @@ const HeroSection = () => {
               <span className="text-gradient-blue">Saynara</span>
             </h1>
             <p className="text-muted-foreground text-xl md:text-2xl max-w-xl mb-10 leading-relaxed">
-              Especialista em identidades visuais, mockups, rótulos, social media, landing pages e e-commerce.
-              Transformo ideias em designs que conectam e vendem.
+              Design estratégico que fortalece sua marca, constrói autoridade e transforma visitantes em clientes.
             </p>
 
             <div className="flex flex-wrap gap-4">
