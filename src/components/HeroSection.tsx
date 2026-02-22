@@ -30,13 +30,11 @@ const HeroSection = () => {
 
             <div className="flex flex-wrap gap-4">
               <a
-                href="https://wa.me/5581987284026"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="gradient-blue-btn text-primary-foreground font-semibold px-10 py-5 rounded-full inline-flex items-center gap-2 text-lg"
-              >
-                Ver meu portfólio
-              </a>
+  href="#portfolio"
+  className="gradient-blue-btn text-primary-foreground font-semibold px-8 py-4 rounded-full inline-flex items-center gap-2 text-base"
+>
+  Ver meu portfólio
+</a>
               <a
                 href="https://instagram.com/layzasaynaradesign"
                 target="_blank"
