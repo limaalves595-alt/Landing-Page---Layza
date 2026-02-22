@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { Instagram, Phone, MessageCircle } from "lucide-react";
+import { Instagram, Phone, Mail, MessageCircle } from "lucide-react";
 
 const ContactSection = () => {
   return (
@@ -41,10 +41,29 @@ const ContactSection = () => {
             </a>
           </div>
 
-          <div className="flex items-center justify-center gap-2 text-muted-foreground">
-            <Phone size={16} />
-            <span>+55 81 98728-4026</span>
-          </div>
+          <div className="flex items-center justify-center gap-6 text-muted-foreground flex-wrap">
+  <div className="flex items-center gap-2">
+    <Phone size={16} />
+    <a
+      href="https://wa.me/5581987284026?text=Olá%20Layza!%20Vim%20pelo%20seu%20site%20e%20gostaria%20de%20solicitar%20um%20orçamento%20para%20meu%20projeto."
+      target="_blank"
+      rel="noopener noreferrer"
+      className="hover:text-primary transition-colors"
+    >
+      +55 81 98728-4026
+    </a>
+  </div>
+
+  <div className="flex items-center gap-2">
+    <Mail size={16} />
+    <a
+      href="mailto:branding@saynaradesign.com.br"
+      className="hover:text-primary transition-colors"
+    >
+      branding@saynaradesign.com.br
+    </a>
+  </div>
+</div>
         </motion.div>
       </div>
     </section>
