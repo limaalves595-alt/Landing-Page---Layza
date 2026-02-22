@@ -5,19 +5,19 @@ const testimonials = [
   {
     name: "Laynne Diniz",
     role: "Empreendedora",
-    text: "Meu Deusssssss! Era assim que eu queria! Eu ameeeeeeeiiiiii! Show de bola, ficou perfeito!",
+    text: "Meu Deuss! Era assim que eu queria! Eu ameeei! Show de bola, ficou perfeito!",
     stars: 5,
   },
   {
-    name: "Camila Ferreira",
-    role: "Dona de E-commerce",
+    name: "Samuel Silva",
+    role: "CEO - Memorativa Professional",
     text: "Os rótulos ficaram incríveis! Meus produtos nunca tiveram tanta presença nas prateleiras. Super recomendo!",
     stars: 5,
   },
   {
-    name: "Rafael Souza",
-    role: "CEO — Startup",
-    text: "A identidade visual que a Layza criou foi exatamente o que precisávamos. Profissional, criativa e super atenciosa.",
+    name: "Joggy",
+    role: "Muscle Rub",
+    text: "Curti demais os banners do site, era exatamente o que eu queria.",
     stars: 5,
   },
 ];

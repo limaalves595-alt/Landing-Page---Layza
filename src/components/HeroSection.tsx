@@ -16,9 +16,9 @@ const HeroSection = () => {
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.8, ease: "easeOut" }}
           >
-            <p className="text-primary font-medium tracking-widest uppercase text-sm mb-4">
-              Designer Gráfica
-            </p>
+            <p className="text-primary font-medium tracking-widest uppercase text-sm mb-4 pl-2">
+  Designer Gráfica
+</p>
             <h1 className="text-6xl md:text-8xl lg:text-9xl font-bold leading-[0.95] mb-6">
               Layza{" "}
               <span className="text-gradient-blue">Saynara</span>
